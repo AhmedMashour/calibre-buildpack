@@ -4,7 +4,7 @@
 BUILD_DIR=$1
 CACHE_DIR=$2
 
-curl --output /tmp/calibre.txz "https://download.calibre-ebook.com/5.2.0/calibre-5.2.0-x86_64.txz"
+curl --output /tmp/calibre.txz "https://download.calibre-ebook.com/6.8.0/calibre-6.8.0-x86_64.txz	"
 tar xvf /tmp/calibre.txz -C $BUILD_DIR
 $BUILD_DIR/calibre_postinstall
 
